@@ -1,0 +1,18 @@
+.grid-container{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  grid-gap: 5px;
+  .grid-cards{
+    width: 30%;
+    background-color: white;
+    .cuotas{
+      color: green;
+    }
+    .gratis{
+      color: #00a650;
+      background-color: #e6f7ee;
+      width: 40%;
+    }
+  }
+}

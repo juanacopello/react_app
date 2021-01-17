@@ -1,63 +1,19 @@
+@import "./componentes/Header/Styles/index.scss";
+@import "./componentes/Aside/Styles/index.scss";
+@import "./componentes/Grid/Styles/index.scss";
+
 .App{
   h1,h2,h3,h4{
     margin: 0;
     padding: 0;
     border: 0;
   }
-  .header{
-    background-color: #fff159;
-    height: 58px;
-    display: flex;
-    .logo{
-      height: 40px;
-      margin-left: 150px;
-      margin-top: 8px;
-    }
-    .search{
-      display: flex;
-      position: absolute;
-      margin-left: 500px;
-      margin-top: 8px;
-      box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
-      border-radius: 2px;
-      .input{
-        padding: 7px 100px 9px 15px;
-        font-size: 16px;
-      }
-    }
-  }
-
+  
   .main{
     background-color: #ebebeb;
     display: flex;
     padding-top: 50px;
     padding-bottom: 50vh;
-    .aside-Bar{
-      width: 248px;
-      margin-left: 90px;
-      .list{
-        list-style-type: none;
-        padding: 0;
-      }
-    }
-    .grid-container{
-      display: flex;
-      width: 100%;
-      flex-wrap: wrap;
-      grid-gap: 5px;
-      .grid-cards{
-        width: 30%;
-        background-color: white;
-        .cuotas{
-          color: green;
-        }
-        .gratis{
-          color: #00a650;
-          background-color: #e6f7ee;
-          width: 40%;
-        }
-      }
-    }
   }
   
 }

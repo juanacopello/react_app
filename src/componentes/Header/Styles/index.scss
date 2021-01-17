@@ -1,0 +1,31 @@
+.header {
+  background-color: #fff159;
+  height: 58px;
+  display: flex;
+
+  .logo {
+    height: 40px;
+    margin-left: 150px;
+    margin-top: 8px;
+  }
+
+  .search {
+    display: flex;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 8px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+
+    .input {
+      padding: 7px 100px 9px 15px;
+      font-size: 16px;
+    }
+  }
+
+  h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+}
