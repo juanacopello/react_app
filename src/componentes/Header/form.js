@@ -1,9 +1,7 @@
-import React from "react";
+import React from 'react';
 
-const Header = () => {
+const Form = () => {
   return(
-    <header className="header">
-    <img src={logo} className="logo" alt="logo" />
     <form className="search">
       <input
         type="text"
@@ -12,8 +10,7 @@ const Header = () => {
       ></input>
       <button></button>
     </form>
-  </header>
   )
-};
+}
 
-export default Header;
+export default Form;
