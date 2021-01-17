@@ -2,10 +2,11 @@
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  grid-gap: 5px;
+  grid-gap: 15px;
   .grid-cards{
     width: 30%;
     background-color: white;
+    padding-bottom: 50px;
     .cuotas{
       color: green;
     }

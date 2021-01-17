@@ -4,8 +4,6 @@ const Form = () => {
   return(
     <form className="search">
       <input
-        type="text"
-        placeholder="Buscar productos, marcas y mas"
         className="input"
       ></input>
       <button></button>
