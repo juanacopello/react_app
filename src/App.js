@@ -39,7 +39,8 @@ class App extends React.Component {
   incrementar() {
     const counter = this.state.contador;
     this.setState({
-      contador: counter + 1
+      contador: counter + 1,
+      isCalled: true
     });
   }
   
@@ -48,6 +49,7 @@ class App extends React.Component {
   }*/
 
   render() {
+    console.log(this.state)
     return (
       <div className="App">
         <h1>{this.state.contador}</h1> 
